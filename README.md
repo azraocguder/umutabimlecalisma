@@ -1,15 +1,2 @@
-# umutabimlecalisma
-asdas de yaptığımız bla bla 
+# kodlarım
 
-
-return 
-
-
-
-
-
-
-while ifi
-
-
-main.c
