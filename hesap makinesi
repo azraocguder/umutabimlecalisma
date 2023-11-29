@@ -1,0 +1,50 @@
+//
+//  main.c
+//  hesap
+//
+//  Created by Azra Öçgüder on 29.11.2023.
+//
+
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+         
+    int toplama,cikarma,bolme,carpma,sayi1,sayi2,sonuc;
+    char islem;
+
+    printf("ilk sayiyi giriniz:");
+    scanf("%d",&sayi1);
+
+    printf("ikinci sayiyi giriniz:");
+    scanf("%d",&sayi2);
+
+    printf("gereken islemi giriniz:");
+    scanf(" %c",&islem);
+
+    if(islem=='+')
+    {
+         sonuc=sayi1+sayi2;
+         printf("toplama sonucunuz:  %d",sonuc);
+    }
+    else if(islem=='-')
+    {
+        sonuc=sayi1-sayi2;
+        printf("cikarma sonucunuz:  %d",sonuc);
+    }
+    else if(islem=='*')
+    {
+        sonuc=sayi1*sayi2;
+        printf("carpma sonucunuz:  %d",sonuc);
+    }
+    else if(islem=='/')
+    {
+        sonuc=sayi1/sayi2;
+        printf("bolme sonucunuz:  %d",sonuc);
+    }
+       return 0;
+    }
+
+
+
+
+
