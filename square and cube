@@ -1,0 +1,21 @@
+// finding the square and cube of a number
+// by AZRA ÖÇGÜDER on 02.12.2013
+#include <stdio.h>
+
+int main()
+
+{
+
+float number,square,cube;
+
+printf("enter the number:");
+scanf("%f",&number);
+
+
+square=number*number;
+cube=number*number*number;
+
+printf("number:%f\n square:%f\n cube:%f\n",number,square,cube);
+
+return 0;
+}
