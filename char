@@ -1,0 +1,23 @@
+//
+//  main.c
+//  circle
+//
+//  Created by Azra Öçgüder on 02.12.2023.
+
+
+// c de metinsel depolama
+#include <stdio.h>
+
+int main() {
+    char mycity[16];
+    printf("enter a city:");
+    scanf("%s",&mycity);
+    printf("your city is %s",mycity);
+    
+
+    return 0;
+}
+   
+
+
+
