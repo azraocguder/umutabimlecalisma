@@ -1,0 +1,61 @@
+//
+//  main.c
+//  study
+//
+//  Created by Azra Öçgüder on 3.12.2023.
+//
+
+#include <stdio.h>
+
+
+    // bir elektrik dağıtım şirket verdikleri hizmet karşılığında müşterilerindenaylık olarak harcanan toplam kilowatt saat miktarınca vebelirli bir abonelik ücreti talep etmektedir. birim kilowatt saat ücreti ve abonelik ücreti her ay enflasyonla birlikte artaktadır. buna göre müşterinin bir aya ait ödeyeceği elektrik faturasını veren program
+    //fatura miktarı=harcanan elektrik*birim fiyatı+abone ücreti
+
+
+    int main(int argc, const char * argv[]) {
+    
+float odenecekfatura,eskibirimfiyat,yenibirimfiyat;
+        float enflasyon,eskiaboneucreti,yeniaboneucreti;
+        int yeniokuma,eskiokuma,toplamharcananelektrik;
+        
+        printf("enflasyon oranını girin:");
+        scanf("%f",&enflasyon);
+    
+        printf("onceki aya ait birim fi orannıı girin:");
+        scanf("%f",&eskibirimfiyat);
+    
+         printf("önceki aya ait abonelik ücretini girin:");
+        scanf("%f",&eskiaboneucreti);
+    
+         printf("önceki aya ait okuma ücretiniı girin:");
+        scanf("%d",&eskiokuma);
+    
+         printf("bu aya ait okuma değeriniı girin:");
+        scanf("%d",&yeniokuma);
+        
+        toplamharcananelektrik=yeniokuma-eskiokuma;
+    
+    yenibirimfiyat=eskibirimfiyat+(1+enflasyon/100);
+    
+    yeniaboneucreti=eskiaboneucreti+(1+enflasyon/100);
+    
+    odenecekfatura=toplamharcananelektrik*yenibirimfiyat+yeniaboneucreti;
+
+    printf("\n odeyeceginiz toplam fatura tutarı:%f\n\n",odenecekfatura);
+
+        
+        
+       
+
+        return 0;
+    }
+        
+  
+       
+    
+    
+    
+    
+    
+
+
