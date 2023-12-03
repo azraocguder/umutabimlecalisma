@@ -1,0 +1,28 @@
+
+//  Created by Azra Öçgüder on 03.12.2023.
+
+
+//girilen 4 sayını aritmetik ort bulan program
+
+#include <stdio.h>
+
+int main() {
+
+   float number1,number2,number3,number4,average;
+ 
+  
+   printf("enter positive 4 number:");
+
+  scanf("%f%f%f%f",&number1,&number2,&number3,&number4);
+
+  average=(number1+number2+number3+number4)/4;
+
+  printf("aritmetik ortalama:%f\n",average);
+  
+  
+
+    return 0;
+}
+
+
+
