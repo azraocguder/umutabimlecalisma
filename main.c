@@ -1,56 +1,37 @@
-// Online C compiler to run C program online
+//
+//  main.c
+//  study
+//
+//  Created by Azra Öçgüder on 2.12.2023.
+//
+
 #include <stdio.h>
 
-int main() {
-    int myNumbers[] = {25, 50, 75, 100, 200, 75};
-    
-    float total = 0;
-    int count = 0;
-    
-    float totalcift = 0;
-    int countcift = 0;
-    
-    float result = 0;
-    float resultcift = 0;
-    //i0
-    //i1
-    //i2
-    //i3
-    //i4
-    //i5
-    for(int i = 0; i < 6; i = i+1) {
-       if (myNumbers[i] % 2 == 1) {
-            total = myNumbers[i] + total;
-            //total=25
-            //total=100
-            //total=175
-            count = count + 1 ;
-            //count=1
-            //count=2
-            //count=3
-        } else {
-            totalcift = myNumbers[i] + totalcift;
-            //totalcift=50
-            //totalcift=150
-            //totalcift=350
-            countcift = countcift + 1 ;
-            //countcift=1
-            //countcift=2
-            //countcift=3
-        }
+int main(int argc, const char * argv[]) {
+    // kapalı kaptaki bir gazın basıncını hesaplama
+    //p=t*n*r/v
+    while (1) {
+        int v,n,t;
+        float p;
+        const float r = 2.223;
+        
+        printf("hacimi giriniz:\n");
+        scanf("%d",&v);
+        printf("sicakligi giriniz:\n");
+        scanf("%d",&t);
+        printf("mol sayisini giriniz:\n");
+        scanf("%d",&n);
+        p = n*r*t/v;
+        
+        printf("gazın basinci: %f",&p);
     }
     
-    result = total/ count;
-    // result=58.33
     
-    printf("%f", result);
     
-    printf("*******");
     
-    resultcift = totalcift/ countcift;
-    //resultcift=116,6
     
-    printf("%f", resultcift);
     
     return 0;
 }
+
+
