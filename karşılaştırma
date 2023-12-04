@@ -1,0 +1,28 @@
+// sayıları karşılaştırma
+#include <stdio.h>
+
+int main() {
+  int number1,number2;
+   printf("enter your first number:");
+   scanf("%d",&number1);
+   
+    printf("enter your second number:" );
+   scanf("%d",&number2);
+   
+   if (number1<number2) {
+       printf("your first number is less than second one\n");
+   }
+   
+   else if (number1>number2) {
+       printf("your first number is geather than second one\n");
+   }
+   else {
+       printf("number1 is equal to number2 ");
+   }
+   
+
+    return 0;
+}
+
+
+
