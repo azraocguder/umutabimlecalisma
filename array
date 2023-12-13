@@ -1,0 +1,22 @@
+#include <stdio.h> 
+#include <stdlib.h>
+//tek boyutlu bir dizinin önce değerlerini sonra tersten değerlerini veren program
+
+int main() 
+{
+    int x;
+    printf("Dizi boyutunu giriniz:");
+    scanf("%d",&x);
+    
+    int dizi[x],i;
+    for(i=1;i<=x;i++)
+    scanf("%d",&dizi[i]);
+    
+    for(i=1;i<=x;i++)
+    printf("orijinal dizi: %d\n",dizi[i]);
+    
+    for(i=x;i>=1;i--)
+    printf("dizi:%d\n",dizi[i]);
+
+    return 0;
+}
