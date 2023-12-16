@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main() {
+    int myNumbers[] = {25, 50, 75, 100, 200, 75};
+    
+    float total = 0;
+    int count = 0;
+    
+    float totalcift = 0;
+    int countcift = 0;
+    
+    float result = 0;
+    float resultcift = 0;
+  
+ 
+    for(int i = 0; i < 6; i = i+1) {
+       if (myNumbers[i] % 2 == 1) {
+            total = myNumbers[i] + total;
+      
+            count = count + 1 ;
+           
+        } else {
+            totalcift = myNumbers[i] + totalcift;
+         
+        }
+    }
+    
+    result = total/ count;
+
+    
+    printf("%f", result);
+    
+    printf("*******");
+    
+    resultcift = totalcift/ countcift;
+ 
+    
+    printf("%f", resultcift);
+    
+    return 0;
+}
