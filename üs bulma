@@ -1,0 +1,28 @@
+
+#include <stdio.h>
+
+
+int main()
+{
+    while (1 == 1) {
+    int number;
+    int number2;
+    double sonuc = 1;
+
+    printf("Bir sayi gir tabani bu");
+    scanf("%d",&number);
+
+    printf("Bir sayi gir ussu bu");
+    scanf("%d",&number2);
+
+    for (int i = 0; i < number2  ; i++) {
+       
+        sonuc = sonuc * number;
+      
+    }
+
+    printf("sonuc: %lf", sonuc);
+
+    }
+    return 0;
+}
