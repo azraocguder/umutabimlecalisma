@@ -1,0 +1,21 @@
+#include <stdio.h>
+// 4 basamaklı bir sayının mükemmel sayı olup olmadığını bulma
+int main()
+{
+  int number,newnumber,part1,part2;
+   printf("enter a positive number:");
+   scanf("%d",&number);
+   
+   part1 = number/100;
+   part2=number%100;
+   
+   newnumber=(part1+part2)*(part1+part2);
+   
+   if(number==newnumber){
+       printf("%d ozel sayimiz \n ",number);
+   }else{
+       printf("%d ozel sayi degil \n ",number);
+   }
+
+    return 0;
+}
