@@ -1,0 +1,25 @@
+// switch case ile hesaplama
+#include <stdio.h>
+
+int main() {
+char myoperator;
+float number1,number2;
+
+printf("choose an operator(+,-,/,*):");
+scanf("%c",&myoperator);
+
+printf("enter two number:");
+scanf("%f%f",&number1,&number2);
+
+switch(myoperator){
+    case'/':printf("%f",number1/number2);break;
+    case'*':printf("%f",number1*number2);break;
+    case'-':printf("%f",number1-number2);break;
+    case'+':printf("%f",number1+number2);break;
+    
+    default:printf("you entered wrong operator\n");
+}
+
+
+    return 0;
+}
