@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+// switch case ile tek mi çift mi bulma
+
+int main() {
+    int number;
+    printf("enter a number:");
+    scanf("%d",&number);
+    
+    switch(number%2){
+        case 0:printf("%d is an even number",number);break;
+        case 1:printf("%d is an odd number",number);break;
+        
+        
+        
+        
+        
+    }
+    return 0;
+}
