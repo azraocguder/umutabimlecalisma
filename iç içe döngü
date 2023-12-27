@@ -1,0 +1,13 @@
+//iç içe döngü
+#include <stdio.h>
+
+int main() {
+    int i,j;
+for(i=1;i<=4;i++){
+    for(j=1;j<=3;j++){
+        printf("hello c\n");
+    }//iç for bitti
+    printf("-------\n");
+}//dış for bitti
+    return 0;
+}
