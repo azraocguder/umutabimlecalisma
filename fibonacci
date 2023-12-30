@@ -1,0 +1,22 @@
+// fibonacci istenilen satıra kadar yazdırma
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int first,second,third,number,i;
+    first=1;
+    second=1;
+    third=1;
+    
+    printf("enter your number:");
+    scanf("%d",&number);
+    printf("1 \n");
+    printf("1 \n");
+    for(i=1;i<=number;i++){
+        first=second;
+        second=third;
+        third=first+second;
+        printf("%d\n",third);
+       
+    }
+    
