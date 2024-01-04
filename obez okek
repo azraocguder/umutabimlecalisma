@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+//girilen iki sayının obeb ve okekini bulma
+
+int main() {
+    
+    int number1,number2,obeb,okek,smallnumber;
+    
+printf ("enter your first number:");
+    scanf("%d",&number1);    
+    
+printf ("enter your second number:");
+    scanf("%d",&number2);
+    
+    if(number1<number2){
+       smallnumber=number1;
+    }else smallnumber=number2;
+    
+   for(int i=2;i<=smallnumber;i++){
+       if((number1%i==0) && (number2%i==0))
+        obeb=i;
+        
+   }
+if(obeb!=0)
+printf("%d ve %d sayılarının obebi:%d\n)",number1,number2,obeb);
+else
+printf("bu sayıların obebi yoktur");
+    return 0;
+}
