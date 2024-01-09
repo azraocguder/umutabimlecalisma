@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+//dizi kullanarak ortalama alma
+int main() {
+   double average=0,numbers[3];
+   printf("enter three numbers:");
+   scanf("%lf%lf%lf",&numbers[0],&numbers[1],&numbers[2]);
+   average=(numbers[0]+numbers[1]+numbers[2])/3;
+   printf("%lf",average);
+    return 0;
+}
