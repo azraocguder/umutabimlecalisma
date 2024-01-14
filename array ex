@@ -1,0 +1,22 @@
+ Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int array[5];
+    int array2[5];
+     int i;
+     
+     array2[1]=2;
+     array2[3]=3;
+     array2[5]=5;
+      for(i=0;i<5;i++){
+        printf("enter your number:");
+        scanf("%d",&array[i]);
+        
+        if(i%2==0){
+            array2[i]==array[i];
+        }
+      }printf("the output is:%d",array2[i]);
+
+    return 0;
+}
