@@ -1,0 +1,9 @@
+#include <stdio.h>
+void myLetter(char name[],int age){
+    printf("%s is %d years old\n",name,age);
+}
+int main() {
+myLetter("azra",18);
+myLetter("emir",19);
+    return 0;
+}
