@@ -1,0 +1,17 @@
+#include <stdio.h>
+void hatayibas(int hata){
+    
+    printf(" hata kodu %d",hata);
+}
+int main() {
+int sayi;
+printf("lütfen negatif olmayan bir sayı giriniz:");
+scanf("%d",&sayi);
+if (sayi<0){
+    hatayibas(404);
+}else{
+    printf("tebrikler");
+}
+
+    return 0;
+}
