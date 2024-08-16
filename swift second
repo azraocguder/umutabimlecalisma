@@ -1,0 +1,37 @@
+import UIKit
+// variables & constants  variables = var   constants=let
+var userName = "Azra"
+print(userName)
+var userSurname = "Öçgüder"
+
+userName = "öçgüler"
+print(userName)
+
+
+//double
+let userAge = 19.0
+let pi = 3.14
+var number = pi * userAge
+ print(number)
+
+
+
+//boolean
+var myBoolean = false
+myBoolean = true
+
+// part2
+let myString : String = "50"
+let anotherNumber : Int = 10
+
+let stringNumber : String = String(20)
+
+// define
+let myVariable : String
+
+// initalization
+
+myVariable = "Test"
+let myUppervariable=myVariable.uppercased()
+print(myUppervariable)
+print(myVariable)
