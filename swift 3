@@ -1,0 +1,35 @@
+import UIKit
+// ARRAY
+var myFavoriteMovies = ["inception","inside out","ı am lagend",true,5 ] as [Any]
+
+myFavoriteMovies[0]
+myFavoriteMovies[1]
+myFavoriteMovies[2]
+myFavoriteMovies[3]
+myFavoriteMovies[4]
+
+var myStringArray = ["test5","test9","test3"]
+ 
+myStringArray[0].uppercased()
+myStringArray.count
+myStringArray[myStringArray.count-3]
+myStringArray.last
+myStringArray.sort()
+
+
+// SET
+
+var mySet : Set = [1,2,3,4,5,1,2]
+var myStringset : Set = ["a","b","c","a"]
+
+ var myInternetArray = (1,2,3,4,7,8,9,0)
+var myInternetSet = [1,2,3,4,5,6,7]
+print(myInternetArray)
+print(myInternetSet)
+
+var mySet1 : Set = [1,2,3]
+var mySet2 : Set = [3,4,5]
+ 
+// union to connet
+var mySet3 = mySet1.union(mySet2)
+print(mySet3)
