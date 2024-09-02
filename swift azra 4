@@ -1,0 +1,31 @@
+import UIKit
+
+var mySet1 : Set = [1,2,3]
+var mySet2 : Set = [3,4,5]
+ 
+// union to connet
+var mySet3 = mySet1.union(mySet2)
+print(mySet3)
+
+
+
+// Dictionary
+// key value pairing eşleştirme
+
+var myFavoriteDirectors = ["pulp fiction": "tarantiono","lock,stock": "guy ritchie","the dark knight": "christopher nolan"]
+
+myFavoriteDirectors["pulp fiction"]
+myFavoriteDirectors["the dark knight"]
+
+myFavoriteDirectors["pulp fiction"] = "quentin tarantino"
+
+print(myFavoriteDirectors)
+
+myFavoriteDirectors["seven samurai"] = "akira kurisowa"
+print(myFavoriteDirectors)
+
+var myDictionary = ["run" : 100, "swim" : 200 , "basketball" : 150]
+myDictionary["run"]
+
+
+
