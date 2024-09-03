@@ -1,0 +1,25 @@
+import UIKit
+
+var myNumber = 1
+
+myNumber = myNumber + 1
+myNumber += 1
+myNumber
+
+// while loop
+
+ var number = 1
+
+while number <= 10{
+    print(number)
+    number += 1
+}
+
+var characterAlive = true
+
+
+// infinite loop
+while characterAlive == true {
+    print("characterAlive")
+    characterAlive = false
+}
