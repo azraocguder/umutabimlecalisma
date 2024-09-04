@@ -1,0 +1,43 @@
+import UIKit
+
+var myNumber = 1
+
+myNumber = myNumber + 1
+myNumber += 1
+myNumber
+
+// while loop
+
+ var number = 1
+
+while number <= 10{
+    print(number)
+    number += 1
+}
+
+var characterAlive = true
+
+
+// infinite loop
+while characterAlive == true {
+    print("characterAlive")
+    characterAlive = false
+}
+ 
+// for loop
+
+var myFruitArray = ["banana","apple","orange"
+]
+for fruit in myFruitArray {
+    print(fruit )
+}
+
+var myNumbers = [10,20,30,40,50,60]
+
+for num in myNumbers {
+    print(num/5)
+}
+
+for mynewinteger in 1...100 {
+    print(mynewinteger*5)
+}
